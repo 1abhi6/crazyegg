@@ -1,0 +1,205 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Nunito, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    color:#0a1c2e;
+
+}
+/* Header */
+.logo{
+    
+    width:123px;
+    height:66px;
+    position:relative;
+    top:15px;
+    cursor:pointer;
+}
+.top-bar{
+    display: flex;
+    justify-content:space-around;
+}
+ul{
+    /* border:1px solid black; */
+    display: flex;
+    flex-direction: row;
+    margin:25px;
+}
+li{
+    list-style: none;
+    margin:30px;
+    font-size: 20px;
+}
+ul a{
+    text-decoration:none;
+    color:black;
+}
+#req{
+    /* border:1px solid black; */
+    padding:10px 12px;
+    position:relative;
+    top:-11px;
+    border-radius: 5px;
+    background-color:#0974bb;
+    color:white;
+}
+#req:hover{
+    background-color:#034571 ;
+}
+#login{
+    color:#267fde;
+}
+
+/* Body */
+
+.happy-lady{
+    /* border: 1px solid black; */
+    display:inline-block;
+    position:relative;
+    left:1150px;
+    top:20px;
+}
+.txt-btn{
+    /* border:1px solid black; */
+    display:inline-block;
+    width:580px;
+    margin:auto;
+    /* position: absolute;
+    top: 250px;
+    left: 300px; */
+}
+.txt h1{
+    color: #0a1c2e;
+    font-size: 60px;
+    line-height: 69px;
+    margin-top: 0px;
+    font-weight:700px;
+}
+.small{
+    margin-top: -27px;
+    font-weight: 400px;
+    line-height:26px;
+}
+.btn{
+    display:inline-block;
+    position: relative;
+    top:-10px;
+    border:3px solid #0092DC;
+    border-radius: 5px;
+    margin-top: 35px;
+   
+}
+#input-txt{
+    color: #000;;
+    line-height:18px;
+    font-size: 21px;
+    font-weight: 400px;
+    height:70px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    width:327px;
+    border:none;
+
+}
+#get-started{
+    font-family: Nunito, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    background-color: #267FDE;
+    border: none;
+    width: 174px;
+    height: 75px;
+    cursor: pointer;
+    font-size: 21px;
+    line-height:24px;
+    color: white;
+    transition: background-color 0.2 ease-in-out;
+}
+#get-started:hover{
+    background-color:#267FDE;
+}
+#final{
+    color:#68768d;
+    font-size:14px;
+    line-height:20px;
+    font-weight: 400px;
+}
+.no1 {
+    position:relative;
+    top:100px;
+    border:none;
+    border-top:1px dashed gray;
+    color:#fff;
+    background-color:#fff;
+    height:1px;
+    width:94%;
+    }
+    
+        .web-recordings{
+            /* border:2px solid #68768d; */
+           
+            display:inline-block;
+            width: 600px;
+            position: relative;
+            left: 639px;
+            top: 130px;
+        }
+        .web-recordings h1{
+            font-size: 48px;
+            line-height:55px;
+            font-weight: 600px;
+            text-align: center;
+        }
+        .custmer-box{
+            border:2px solid #68768d;
+            border-radius: 8px;
+            /* display:flex; */
+            padding: 10px;
+            width: 600px;
+    height: 10vh;
+        }
+        .chat-icon{
+            /* border-top:1px solid gray; */
+            display:inline-block;
+            position: relative;
+            left: 15px;
+            top:-20px;
+    top: 20px;
+        }
+        #custmer-review{
+            /* border-top:1px solid gray; */
+            display:inline;
+            position: relative;
+            left: 50px;
+            top: -20px;
+        }
+        #reply{
+            /* border-top:1px solid gray; */
+            display:inline;
+            position: relative;
+            left: -114px;
+    top: 13px;
+        }
+
+        .no2 {
+            position:relative;
+            top:10px;
+            border:none;
+            border-top:1px dashed gray;
+            color:#fff;
+            background-color:#fff;
+            height:1px;
+            width:100%;
+            }
+            footer{
+                display:inline-block;
+                /* border:2px solid black; */
+                position:relative;
+                left: 122px;
+                top: 300px;
+            }
+            #ftr{
+                
+                color:#68768d;
+                font-size:14px;
+                line-height:20px;
+                font-weight: 400px;
+                align-self: flex-end;
+            }
